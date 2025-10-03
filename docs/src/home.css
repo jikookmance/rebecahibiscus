@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+body {
+    font-family: "Crimson Text", serif;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.lottie-player-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    height: 100%; 
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 600px;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255); 
+}
+.section{
+    margin-top: 100px;
+}
+
+.navbar-brand {
+    margin-right: 100px;
+    color: #2479b1e0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content{
+   background-color: white;
+}
+
+.section {
+    margin-left: 10px;
+}
+
+p i {
+    color: #2479b1e0;
+}
+p{
+    font-size: 35px !important;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+.bio {
+    font-size: 25px;
+}
+
+.links {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.btn {
+    margin-top: 20px;
+    width: 1140px;
+    background-color: #2479b1e0;
+    color: white;
+}
+p.bio.left {
+    width: 1000px ;
+    margin-top: 15px;
+}
+
+.jimin1 {
+    width: 250px;
+    margin-left: 10px;
+    float: right;
+}
+p.bio.right {
+    margin-top: 10px;
+    text-align: end;
+    float: right;
+}
+
+.jimin2 {
+    width: 250px;
+    margin-right: 0px;
+}
+.jimin3 {
+    float: right;
+    width: 270px;
+    margin-right: 0px;
+}
+.jungkook1{
+    width: 260px;
+    margin-right: 0px;
+    float: right;
+}
+.jungkook2{
+    width: 250px;
+    margin-right: 0px;
+}
+.jungkook3{
+    width: 250px;
+    margin-right: 0px;
+    float: right;
+}
+a{
+    color: #3F89BA;
+}
+.copy-container {
+    display: flex;
+    align-items: center;
+}
+
+.copy-text {
+    margin-right: 10px;
+}
+
+.copy-icon {
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1900px) and (max-width: 3000px) {
+     
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: -1;
+        height: 100%; 
+    }
+    
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .container {
+        position: relative;
+        z-index: 1;
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 1000px;
+        overflow-y: auto;
+        background-color: rgb(255, 255, 255); 
+    }
+    .btn{
+       width: 1330px;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    body {
+        font-family: "Crimson Text", serif;
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100%;
+    }
+    
+    .lottie-player-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        z-index: 0;
+    }
+    
+    
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: -1;
+        height: 100%; 
+    }
+    
+    .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .container {
+        position: relative;
+        z-index: 1;
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.233);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 700px;
+        overflow-y: auto;
+        background-color: rgb(255, 255, 255); 
+    }
+    .section{
+        margin-top: 100px;
+    }
+    
+    .navbar-brand {
+        margin-right: 100px;
+        color: #2479b1e0;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content{
+       background-color: white;
+    }
+    
+    .section {
+        margin-left: 10px;
+    }
+    
+    p i {
+        color: #2479b1e0;
+    }
+    
+    h5 {
+        font-size: 35px;
+    }
+    
+    .bio {
+        font-size: 25px;
+    }
+    
+    .links {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .btn {
+        margin-top: 20px;
+        width: 1140px;
+        background-color: #2479b1e0;
+        color: white;
+    }
+    p.bio.left {
+        width: 1000px ;
+        margin-top: 15px;
+    }
+    
+    .jimin1 {
+        width: 200px;
+        margin-left: 10px;
+        float: right;
+    }
+    p.bio.right {
+        margin-top: 10px;
+        text-align: end;
+        float: right;
+    }
+    
+    .jimin2 {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .jimin3 {
+        float: right;
+        width: 200px;
+        margin-right: 0px;
+    }
+    .jungkook1{
+        width: 200px;
+        margin-right: 0px;
+        float: right;
+    }
+    .jungkook2{
+        width: 200px;
+        margin-right: 0px;
+    }
+    .jungkook3{
+        width: 200px;
+        margin-right: 0px;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 800px) {
+    .container {
+        margin-top: 205px;
+        width: 350px;
+        height: 100%;
+    }
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: -1;
+        height: 100%; 
+    }
+    
+    .video-container video {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .section{
+        margin-top: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px !important;
+    }
+
+    video {
+        width: 300px;
+    }
+
+    .btn {
+        width: 360px;
+    }
+
+    .bio {
+        font-size: 12px;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+    p.bio.left {
+        width: 250px !important;
+    }
+    
+    .jimin1 {
+        width: 110px;
+        margin-left: 10px;
+        float: right;
+    }
+    p.bio.right {
+        width: 180px !important;
+        margin-left: 15px;
+    }
+    
+    .jimin2 {
+        width: 105px;
+    }
+    .jimin3 {
+        width: 130px;
+    }
+    .jungkook1{
+        width: 110px;
+    }
+    .jungkook2{
+        width: 110px;
+    }
+    .jungkook3{
+        width: 115px;
+    }
+    .bio a{
+        color: #3F89BA;
+    }
+}
+
+
